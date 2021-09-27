@@ -1,0 +1,24 @@
+
+body::before{
+    display: block;
+    height: 70px;
+    content: '';
+}
+
+.hero-pg{
+    background-image: url(./images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+@media(max-width: 480px and min-width: 280px) {
+    .hero-pg{
+        background-image: url(./images/hero-bg.jpg);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+}
